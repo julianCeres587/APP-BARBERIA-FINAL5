@@ -25,12 +25,43 @@
                width: 95%; //para que no llegue hasta las esquinas
                margin: 0 auto;
                padding: 3rem ;
+               @include m.tablet{
+                 overflow: scroll;  //soluciona el problema de que la img se desfasa con muchas citas
+               }
 
        }
     
     }
 
+    .barra{
+          margin: v.$separacion 0;
 
+          @include m.tablet{
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+          }
+        .boton{
+
+            @include m.boton(v.$negro, v.$blanco);
+            margin: 0;
+        }
+    }
+
+.barra-servicios{
+      margin-bottom: v.$separacion;
+
+      @include m.tablet {
+          display: flex;
+          justify-content: space-between;
+      }
+
+      .boton {
+         margin: 0 0 1rem 0;
+      }
+
+
+}
 
 
 

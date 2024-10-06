@@ -116,6 +116,8 @@ class ActiveRecord {
         return array_shift( $resultado ) ;
     }
 
+    
+
 
    
 
@@ -131,6 +133,15 @@ class ActiveRecord {
         $resultado = self::consultarSQL($query);
         return array_shift( $resultado ) ;
     }
+
+    //consulta plana de sql  (usar cunado los metodos del modelo no son suficientes)
+
+    public static function SQL($consulta) {
+        $query = $consulta;
+        $resultado = self::consultarSQL($query);
+        return  $resultado ;  //ArrayShift, teniendo un arreglo, saca el primer elemento
+    }
+
 
 
     
