@@ -2,7 +2,7 @@
 @use 'base/mixins' as m;
 
 .boton{
-     @include m.boton(v.$azul, v.$blanco)    //azul fondo  blanco texto
+     @include m.boton(v.$morado, v.$blanco)    //azul fondo  blanco texto
         
 }
 

@@ -9,7 +9,7 @@
     }
 
      button{
-         background-color: v.$azul;
+         background-color: v.$morado;
          border:none;
          color: v.$blanco;
          padding: 1rem;
@@ -22,11 +22,11 @@
          
          &:hover{   //cuando ponen el cursor sobre el elemento
             cursor:pointer;
-            background-color: darken(v.$azul, 10%);
+            background-color: darken(v.$morado, 10%);
          }
          &.actual{ //para que cambie al hacer click
              background-color: v.$blanco;
-             color: v.$azul;
+             color: v.$morado;
 
          }
 
