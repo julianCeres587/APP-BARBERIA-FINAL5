@@ -17,7 +17,7 @@
                 text-align:center;
 
                 &.seleccionado{
-                        background-color: v.$morado;
+                        background-color: v.$amarillo;
                         p{
                             color: v.$blanco;
                         }
@@ -36,7 +36,7 @@
 
                 .precio-servicio{
 
-                    color: v.$morado;
+                    color: v.$amarillo;
                     font-weight: v.$bold;
                     font-size: 3rem;
                     margin:0;
