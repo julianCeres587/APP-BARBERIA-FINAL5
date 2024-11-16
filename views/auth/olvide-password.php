@@ -24,7 +24,7 @@
 </form>
 
 <div class="acciones">
-    <a href="/crear-cuenta">¿Ya tiene una cuenta? Inicie Sesión</a>
-    <a href="/olvide">¿No ha creado una cuenta? Crear Cuenta</a>
+    <a href="/">¿Ya tiene una cuenta? Inicie Sesión</a>
+    <a href="/crear-cuenta">¿No ha creado una cuenta? Crear Cuenta</a>
 
 </div>
