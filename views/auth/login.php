@@ -35,8 +35,3 @@ include_once __DIR__ . "/../templates/alertas.php";
 
 </form>
 
-<div class="acciones">
-    <a href="/crear-cuenta">Si aún no tiene cuenta, cree una</a>
-    <a href="/olvide">¿Ha olvidado su contraseña?</a>
-
-</div>
